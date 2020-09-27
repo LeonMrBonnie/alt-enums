@@ -1,4 +1,5 @@
 declare module "alt-enums" {
+    // For e.g. giveWeaponToPed native
     export const enum WeaponModel {
         CombatPdw = 0x0A3D4D34,
         HeavySniperMk2 = 0x0A914799,
@@ -97,6 +98,7 @@ declare module "alt-enums" {
         SmokeGrenade = 0xFDBC8A50
     }
 
+    // For e.g. setPedWeaponTintIndex native
     export const enum WeaponTint {
         Normal = 0,
         Green,
@@ -108,6 +110,7 @@ declare module "alt-enums" {
         Platinum
     }
 
+    // For e.g. setPlayerModel native
     export const enum PedModel {
         a_c_boar = 0xCE5FF074,
         a_c_cat_01 = 0x573201B8,
@@ -891,6 +894,7 @@ declare module "alt-enums" {
         u_m_y_zombie_01 = 0xAC4B4506
     }
 
+    // For e.g. disableControlAction native
     export enum InputGroup {
         Move = 0,
         Look,
@@ -926,6 +930,7 @@ declare module "alt-enums" {
         VehHydraulicsControl
     }
 
+    // For e.g. disableControlAction native
     export const enum Input {
         NextCamera = 0,
         LookLeftRight,
@@ -1275,6 +1280,7 @@ declare module "alt-enums" {
         VehicleFlyTransform
     }
 
+    // For e.g. getVehicleClass native
     export const enum VehicleClass {
         Compact = 0,
         Sedan,
@@ -1301,6 +1307,7 @@ declare module "alt-enums" {
         OpenWheel
     }
 
+    // For e.g. hideHudComponentThisFrame native
     export const enum HudComponent {
         Hud = 0,
         WantedStars,
@@ -1326,5 +1333,25 @@ declare module "alt-enums" {
         MaxHudComponents,
         MaxHudWeapons = 22,
         MaxScriptedHudComponents = 141
+    }
+
+    // For e.g. taskShootAtCoord native
+    export const enum FiringPattern {
+        BurstFire = 0xD6FF6D61,
+        BurstFireInCover = 0x026321F1,
+        BurstFireDriveBy = 0xD31265F2,
+        FromGround = 0x2264E5D6,
+        DelayFireByOneSec = 0x7A845691,
+        FullAuto = 0xC6EE6B4C,
+        SingleShot = 0x5D60E4E0,
+        BurstFirePistol = 0xA018DB8A,
+        BurstFireSmg = 0xD10DADEE,
+        BurstFireRifle = 0x9C74B406,
+        BurstFireMg = 0xB573C5B4,
+        BurstFirePumpShotgun = 0x00BAC39B,
+        BurstFireHeli = 0x914E786F,
+        BurstFireMicro = 0x42EF03FD,
+        ShortBursts = 0x1A92D7DF,
+        SlowFireTank = 0xE2CA3A71
     }
 }
