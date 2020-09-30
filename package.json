@@ -1,6 +1,6 @@
 {
   "name": "alt-enums",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An unofficial package containing TypeScript enums for alt:V",
   "types": "index.d.ts",
   "files": [
