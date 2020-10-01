@@ -1392,4 +1392,23 @@ declare module "alt-enums" {
         ShortBursts = 0x1A92D7DF,
         SlowFireTank = 0xE2CA3A71
     }
+
+    // For e.g. alt.setWeather
+    export const enum WeatherType {
+        Smog = 0x10DCF4B5,
+        Snowlight = 0x23FB812B,
+        Blizzard = 0x27EA2814,
+        Clouds = 0x30FDAF5C,
+        Clear = 0x36A83D84,
+        Rain = 0x54A69840,
+        Clearing = 0x6DB1A50D,
+        ExtraSunny = 0x97AA0A79,
+        Neutral = 0xA4CA1326,
+        Xmas = 0xAAC9C895,
+        Foggy = 0xAE737644,
+        Thunder = 0xB677829F,
+        Overcast = 0xBB898D2D,
+        Halloween = 0xC91A3202,
+        Snow = 0xEFB6EFF6
+    }
 }
