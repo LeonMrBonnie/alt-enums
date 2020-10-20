@@ -1,18 +1,19 @@
 {
-  "name": "alt-enums",
-  "version": "1.0.5",
-  "description": "An unofficial package containing TypeScript enums for alt:V",
-  "types": "index.d.ts",
-  "files": [
-    "index.d.ts"
-  ],
-  "scripts": {
-    "test": "tsc"
-  },
-  "author": "LeonMrBonnie",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leonmrbonnie/alt-enums.git"
-  }
+    "name": "alt-enums",
+    "version": "1.0.5",
+    "description": "An unofficial package containing TypeScript enums for alt:V",
+    "types": "index.d.ts",
+    "files": [
+        "index.d.ts",
+        "index.js"
+    ],
+    "scripts": {
+        "test": "tsc"
+    },
+    "author": "LeonMrBonnie",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leonmrbonnie/alt-enums.git"
+    }
 }
